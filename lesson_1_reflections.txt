@@ -1,0 +1,36 @@
+1.How could having access to the entire history for a file make you a more efficient programmer in the long term?
+
+- Detect bug introduced by a certain version of the file
+- Understand the maturation of the code by studying the version history
+- Code for code reviews
+- Check the dev that has made changes
+
+2. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- Have a granular control of your versioning, you can fine tune what each version will contain, a feature, a bug, a day's worth of code?
+- Have to manually commit the changes, what happens if the computer crashes and no commit made?
+
+3. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file seperately
+- In development, mutliple files are in play, possibly, when working on a feature, therefore if there are changes
+  in multiple files that dependent to each other those files should construct the story of that commit, that allows
+  a developer to view the history of all files related to a certain bug or feature committed.
+
+4. How might using version control make you more confident to make changes that could break something?
+- more of a risk taker, can make significant changes
+
+5. How to setup a default editor for git; other than Visual Studio Code:
+  1. https://help.github.com/articles/associating-text-editors-with-git/
+
+6. How to setup Visual Studio Code as the default editor for git:
+  1. From the command line, run git config --global core.editor "code --wait"
+  2. Source: https://code.visualstudio.com/docs/editor/versioncontrol
+
+7. How to change/setup Git Bush custom prompt:
+    1. https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
+    2. https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/33417185870923
+
+8. Might be fun to learn more about customizing your Git prompts:
+   a) What does git-completion.bash 
+   b) What is git_prompt.sh
+   c) what is the bash_profile_course/.bash_profile
+
+
