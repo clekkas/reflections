@@ -1,0 +1,6 @@
+Git Commands
+
+git log -n1 --> show only that "n" of commits
+git remote --> view all the remotes associate with the git repo
+git remote add <remote name> <remote url> 
+git remote -v ---> more verbose list of remotes
